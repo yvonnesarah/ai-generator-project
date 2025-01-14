@@ -1,0 +1,97 @@
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Header Styling */
+header {
+  background-color: #6200ea;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Quote Container */
+.quote-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Form Styling */
+form {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #6200ea;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.submit-button {
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hint Styling */
+.hint {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Quote Styling */
+.quote {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #333;
+  margin: 20px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Footer Styling */
+footer {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+footer a {
+  color: #6200ea;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
