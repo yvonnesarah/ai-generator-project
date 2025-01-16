@@ -39,6 +39,7 @@ header h1 {
 /* Form Styling */
 form {
   margin-bottom: 30px;
+  margin-left: -20px;
 }
 
 .search-input {
@@ -98,7 +99,7 @@ footer a {
 }
 
 footer a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Responsive Adjustments */
