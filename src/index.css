@@ -32,7 +32,7 @@ header h1 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   max-width: 700px;
-  width: 500%;
+  width: 90%;
   text-align: center;
 }
 
@@ -42,7 +42,7 @@ form {
 }
 
 .search-input {
-  width: 90%;
+  width: 100%;
   padding: 10px;
   margin-bottom: 10px;
   border: 2px solid #6200ea;
@@ -58,6 +58,11 @@ form {
   font-size: 1rem;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #3700b3;
 }
 
 /* Hint Styling */
@@ -89,9 +94,23 @@ footer {
 footer a {
   color: #6200ea;
   text-decoration: none;
+  transition: text-decoration 0.3s ease;
 }
 
 footer a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+  .quote-container {
+    padding: 15px;
+    width: 100%;
+  }
+  .search-input {
+    width: 100%;
+  }
+}
