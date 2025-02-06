@@ -43,6 +43,7 @@ Below is a preview of AI Quotes Generator:
 
 ## 👥 Credit
 TypewriterJS: Used for creating the typewriter effect in displaying the quotes.
+
 Axios: Used to handle HTTP requests for generating quotes.
 
 ## 📜 License
