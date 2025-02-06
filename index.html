@@ -4,17 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Quotes Generator</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="src/index.css" />
-    <!-- TypewriterJS -->
+    
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    
+    <!-- Import TypewriterJS library for typewriter effect -->
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <!-- Axios -->
+    
+    <!-- Import Axios for making HTTP requests -->
     <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
   </head>
   <body>
+    <!-- Page header with title -->
     <header><h1>AI Quotes Generator</h1></header>
+    
     <div class="quote-container">
       <main>
+        <!-- Form for user to enter keywords -->
         <form id="form">
           <input
             class="search-input"
@@ -25,15 +31,18 @@
           />
           <input type="Submit" class="submit-button" />
         </form>
+        
+        <!-- Hint section to guide users on what keywords to enter -->
         <div class="hint">e.g: Love, Music, Friendship, Family...</div>
+        
+        <!-- Quote display section, initially hidden -->
         <div class="quote hidden"></div>
       </main>
       
-       <footer>
-       This project was coded by
-        <a href="https://github.com/yvonnesarah" target="_blank"
-          >Yvonne Adedeji</a
-        >
+      <footer>
+        <!-- Attribution and links to project resources -->
+        This project was coded by
+        <a href="https://github.com/yvonnesarah" target="_blank">Yvonne Adedeji</a>
         and is open-sourced on
         <a href="https://github.com/yvonnesarah/ai-generator-project" target="_blank">GitHub</a>
         and hosted on
@@ -41,7 +50,7 @@
       </footer>
     </div>
 
-    <!-- JS -->
-    <script src="src/index.js"></script>
+    <!-- Link to external JavaScript file for functionality -->
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>

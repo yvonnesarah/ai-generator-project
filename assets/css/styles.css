@@ -5,11 +5,13 @@
   box-sizing: border-box;
 }
 
+/* Set base font size and smooth scrolling */
 html {
   font-size: 16px;
   scroll-behavior: smooth;
 }
 
+/* Body styles - center content and set global styles */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -23,16 +25,19 @@ body {
   margin: 0;
 }
 
+/* Header styling */
 header {
   text-align: center;
   margin: 1rem 0;
 }
 
+/* Header title styling */
 header h1 {
   font-size: 2rem;
   color: #222;
 }
 
+/* Quote container styles */
 .quote-container {
   width: 90%;
   max-width: 600px;
@@ -49,6 +54,7 @@ form {
   gap: 1rem;
 }
 
+/* Input field styles */
 .search-input {
   width: 100%;
   padding: 0.75rem;
@@ -59,11 +65,13 @@ form {
   transition: all 0.3s ease;
 }
 
+/* Input focus effect */
 .search-input:focus {
   border-color: #007bff;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
+/* Submit button styling */
 .submit-button {
   padding: 0.75rem;
   font-size: 1rem;
@@ -75,10 +83,12 @@ form {
   transition: background-color 0.3s ease;
 }
 
+/* Submit button hover effect */
 .submit-button:hover {
   background-color: #0056b3;
 }
 
+/* Hint text styling */
 .hint {
   font-size: 0.9rem;
   color: #555;
@@ -86,6 +96,7 @@ form {
   margin-top: 1rem;
 }
 
+/* Quote display styling */
 .quote {
   font-size: 1.2rem;
   color: #333;
@@ -94,11 +105,12 @@ form {
   line-height: 1.5;
 }
 
+/* Hide elements with this class */
 .hidden {
   display: none;
 }
 
-/* Footer */
+/* Footer styles */
 footer {
   margin-top: 2rem;
   font-size: 0.9rem;
@@ -106,26 +118,31 @@ footer {
   color: #777;
 }
 
+/* Footer links styling */
 footer a {
   color: #007bff;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
+/* Footer link hover effect */
 footer a:hover {
   color: #0056b3;
 }
 
-/* Responsive Design */
+/* Responsive Design for tablets */
 @media (min-width: 768px) {
+  /* Increase header title size */
   header h1 {
     font-size: 2.5rem;
   }
 
+  /* Increase padding for quote container */
   .quote-container {
     padding: 3rem;
   }
 
+  /* Adjust font sizes for better readability */
   .hint {
     font-size: 1rem;
   }
@@ -139,11 +156,14 @@ footer a:hover {
   }
 }
 
+/* Responsive Design for larger screens */
 @media (min-width: 1024px) {
+  /* Expand quote container width */
   .quote-container {
     max-width: 800px;
   }
 
+  /* Increase header title size for larger screens */
   header h1 {
     font-size: 3rem;
   }
